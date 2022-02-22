@@ -144,7 +144,7 @@ variable "instance_count" {
 
 variable "os_type" {
   description = "Specify the flavor of the operating system image to deploy Virtual Machine. Valid values are `windows` and `linux`"
-  default     = "windows"
+  default     = "linux"
 }
 
 variable "vm_size" {
