@@ -152,7 +152,7 @@ resource "azurerm_network_security_rule" "allow_ssh" {
 | os\_disk\_caching | The Type of Caching which should be used for the Internal OS Disk. Possible values are `None`, `ReadOnly` and `ReadWrite` | `string` | `"ReadWrite"` | no |
 | os\_disk\_name | The name which should be used for the Internal OS Disk | `any` | n/a | yes |
 | os\_disk\_storage\_account\_type | The Type of Storage Account which should back this the Internal OS Disk. Possible values include Standard\_LRS, StandardSSD\_LRS and Premium\_LRS. | `string` | `"StandardSSD_LRS"` | no |
-| os\_type | Specify the flavor of the operating system image to deploy Virtual Machine. Valid values are `windows` and `linux` | `string` | `"windows"` | no |
+| os\_type | Specify the flavor of the operating system image to deploy Virtual Machine. Valid values are `windows` and `linux` | `string` | `"linux"` | no |
 | patch\_mode | Specifies the mode of in-guest patching to this Windows Virtual Machine. Possible values are `Manual`, `AutomaticByOS` and `AutomaticByPlatform` | `string` | `"AutomaticByOS"` | no |
 | platform\_fault\_domain\_count | Specifies the number of fault domains that are used | `number` | `3` | no |
 | platform\_update\_domain\_count | Specifies the number of update domains that are used | `number` | `5` | no |
