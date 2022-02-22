@@ -149,7 +149,7 @@ variable "os_type" {
 
 variable "vm_size" {
   description = "The Virtual Machine SKU for the Virtual Machine, Default is Standard_A2_V2"
-  default     = "Standard_A2_v2"
+  default     = "Standard_D2_v2"
 }
 
 variable "disable_password_authentication" {
